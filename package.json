@@ -1,0 +1,16 @@
+{
+  "name": "Schorticu",
+  "version": "1.0.0",
+  "description": "A schortener bot using discordjs",
+  "main": "index.js",
+  "dependencies": {
+    "dblapi.js": "^2.4.0",
+    "discord.js": "^12.2.0",
+    "moment": "^2.25.3",
+    "moment-duration-format": "^2.3.2",
+    "yourls": "^1.0.2"
+  },
+  "devDependencies": {},
+  "author": "DanPlayz",
+  "license": "ISC"
+}
