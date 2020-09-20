@@ -1,0 +1,10 @@
+{
+  "prefix": "s.",
+  "token": "YOUR_DISCORD_BOT_TOKEN",
+  "dblToken": "TOP.GG_TOKEN",
+
+  "yourlsURL": "https://schort.icu", // YourLS Domain
+  "yourlsToken": "", // YourLS Token
+  
+  "sadmins": ["229285505693515776", "209796601357533184"] // Array of userids with full access to the bot.
+}
