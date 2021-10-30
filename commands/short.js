@@ -27,8 +27,8 @@ module.exports.run = async (client, message, args) => {
     const e = new MessageEmbed()
         .setTitle('Shorten Success')
         .setColor('GREEN')
-        .setDescription('Thank you for using our services.')
-        .addField('ShortURL', `${result.shorturl}`)
+        .setDescription('Thank you for using this bot')
+        .addField('Short URL', `[click here](${result.shorturl})`)
         .setFooter(message.author.username, message.author.avatarURL)
         .setTimestamp();
     return message.channel.send(e);
@@ -37,7 +37,7 @@ module.exports.run = async (client, message, args) => {
 
 module.exports.config = {
     name: "short",
-    aliases: ['schort'],
+    aliases: ['schort', 'cuturl'],
     description: "Shorten Links",
     type: "user"
 };
